@@ -4,6 +4,6 @@
 
 def roll
   # code goes here
-  nums = (1..6).to_a
-  random = 
+  random = Random.rand(1..6)
+  random
 end
