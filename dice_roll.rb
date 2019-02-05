@@ -6,6 +6,6 @@ def roll
   # code goes here
   #random = rand(1..6)
   nums = (1..6).to_a
-  random = nums[1...rand(nums.length)]
+  random = nums[rand(1...nums.length)]
   random
 end
